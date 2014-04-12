@@ -1,0 +1,30 @@
+nav {
+    background-color: #2C5463;
+    height: 40px;
+}
+nav ul {
+    font-family: Arial, Verdana;
+    margin:    50;
+    padding:   60;
+    background-color: red;
+}
+nav ul li {
+    display: inline;
+    position: relative;
+    float: left;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 7px 15px 3px 15px;
+    background-color: #2C5463;
+    color: #FFFFFF;
+    margin-left: 1px;
+    white-space: nowrap;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+}
+nav ul li a:hover {
+    background: #617F8A;
+}
