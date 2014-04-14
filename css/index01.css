@@ -1,58 +1,72 @@
-
-
-
-
+@font-face {
+    font-family:        farray;
+    src:                url("../font/FARRAY.otf");
+}
+@font-face {
+    font-family:        simplifica;
+    src:                url("../font/simplifica.ttf");
+}
+@font-face {
+    font-family:        aeromatic;
+    src:                url("../font/Aero\ Matics\ Regular.ttf");
+}
 body{
-    background-image:url("../res/debut_dark.png");
-    background-color: blue;
-    padding:0px;
-    margin-top: 0px;
-    font-size:100%;
+    background-image:   url("../res/debut_dark.png");
+    background-color:   blue;
+    padding:            0;
+    margin:             0;
+    font-size:          100%;
 }
 body div{
-    background-image:url("../res/creampaper.png");
-    padding:        13% 0 0 0;
-    margin-left:    5%;
-    margin-right:   5%;
-    -webkit-box-shadow: 0 0.1em 0.1em 0.1em #000;
-}
-body div header{
-    font-family: Tahoma,serif;
-    font-size: 10vh;
+    background-image:   url("../res/creampaper.png");
+    padding:            13% 0 0 0;
+    margin-left:        5%;
+    margin-right:       5%;
+    -webkit-box-shadow: 0 0 0.3em 0.3em #222;
 }
 section {
-    font-family: Arial;
-    padding: 3%;
+    font-family:        Arial;
+    padding:            0 5% 5% 5%;
+}
+section header{
+    font-family:        aeromatic;
+    font-size:          6vh;
+    text-align:         center;
+    margin-bottom:      7%;
 }
 nav{
-    position: fixed;
-    font-size: 5vh;
+    background-color:   #aaa;
+    position:           fixed;
+    font-family:        aeromatic;
+    font-size:          2vh;
+    margin:             0 auto; left:0; right:0;
 }
 nav ul {
-    margin:    0;
-    padding:   0;
+    margin:             0;
+    padding:            0;
 }
 nav ul li {
-    display: inline;
-    position: relative;
-    float: left;
-    width: 25%;
+    display:            inline;
+    float:              left;
+    width:              24.5%;
+    margin:             .25%;
 }
 nav ul li a {
-    display: block;
-    text-decoration: none;
-    background-color: #2C5463;
-    color: #FFFFFF;
-    height: 2em;
-    line-height:2em;
-    text-align: center;
-    -webkit-box-shadow: inset 0 0 0 0.1em #000;
+    display:            block;
+    text-decoration:    none;
+    color:              #aaa;
+    height:             4em;
+    line-height:        4em;
+    text-align:         center;
+    background:         -webkit-linear-gradient(#CCC,#FFF,#CCC);
+    border-radius:      .1em;
 }
 nav ul li a:hover {
-    background: #617F8A;
+    background:         #CCCCCC;
+    color:              #333333;
 }
 nav ul li a span{
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+    display:            inline-block;
+    vertical-align:     middle;
+    line-height:        normal;
 }
