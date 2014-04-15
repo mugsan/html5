@@ -10,8 +10,15 @@
     font-family:        aeromatic;
     src:                url("../font/Aero\ Matics\ Regular.ttf");
 }
+img {
+    max-width:          100%;
+    height:             auto;
+    display:            block;
+    margin-left:        auto;
+    margin-right:       auto;
+}
 body{
-    background-image:   url("../res/debut_dark.png");
+    background-image:   url("../res/bedge_grunge.png");
     background-color:   blue;
     padding:            0;
     margin:             0;
@@ -22,20 +29,22 @@ body div{
     padding:            13% 0 0 0;
     margin-left:        5%;
     margin-right:       5%;
-    -webkit-box-shadow: 0 0 0.3em 0.3em #222;
+    -webkit-box-shadow: inset 0 0 0.3em 0.3em #222;
 }
 section {
     font-family:        Arial;
+    color:              #222;
     padding:            0 5% 5% 5%;
 }
 section header{
-    font-family:        aeromatic;
-    font-size:          6vh;
+    font-family:        simplifica;
+    font-size:          9vh;
     text-align:         center;
+    margin-top:         7%;
     margin-bottom:      7%;
 }
 nav{
-    background-color:   #aaa;
+    background-color:   #333;
     position:           fixed;
     font-family:        aeromatic;
     font-size:          2vh;
